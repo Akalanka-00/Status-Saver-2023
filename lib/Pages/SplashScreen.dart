@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen>
         child: const Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            
+            Image(image: AssetImage("assets/images/Logo.png")),
             SizedBox(height: 20),
             Text("Download your whatsapp statuses")
           ],
